@@ -1,0 +1,57 @@
+.custom-background-color {
+    background-color: #f4a900;
+}
+
+
+#orangeContainer {
+    height: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#whiteContainer {
+    background-color: white;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#navItems {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#loginButton {
+    font-family: 'Arial Black', Helvetica, sans-serif;   
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.registerButton {
+    font-family: 'Arial Black', Helvetica, sans-serif;   
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#mainHeading {
+    font-size: 64px;
+    font-family: 'Arial Black', Helvetica, sans-serif;   
+}
+
+.secondHeading {
+    font-size: 36px;
+    font-family: 'Arial Black', Helvetica, sans-serif;
+
+}
+
+#getStartedButton {
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+#bookDisplay {
+    width: 15%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
