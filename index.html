@@ -11,51 +11,165 @@
             <a href="#home" class="w3-bar-item w3-button w3-wide">
             <img alt="BPD - Home" src="bpd_logo.png" height="64">
             </a>
-            <!-- Right-sided navbar links -->
+            <!-- Left-sided navbar links -->
             <div class="w3-left w3-hide-small w3-padding-16">
                <a href="#home" class="w3-bar-item w3-button" id="navItems">HOME</a>
                <a href="#about" class="w3-bar-item w3-button" id="navItems">ABOUT</a>
                <a href="#team" class="w3-bar-item w3-button" id="navItems"><i class="fa fa-user"></i> NEWS</a>
                <a href="#books" class="w3-bar-item w3-button" id="navItems"><i class="fa fa-th"></i> BOOKS</a>
             </div>
+
+            <!-- Right-sided buttons -->
             <div class="w3-right w3-hide-small w3-padding-16">
-               <button class="w3-button w3-white w3-border w3-border-grey registerButton" id="trigger-modal">Register</button>
+               <button onclick="document.getElementById('bookclubrego').style.display='block'" class="w3-button w3-white w3-border w3-border-grey registerButton" id="trigger-modal">Register</button>
                <button class="w3-button w3-white w3-border w3-border-grey" id="loginButton">Login</button>
             </div>
          </div>
       </div>
+
+      <!-- first container -->
+
       <div class="w3-container w3-padding-top-64 custom-background-color" id="orangeContainer">
          <br>
-         <div class="w3-container w3-center w3-padding-top-64" id="firstSectionHeader">
-            <h1 id="mainHeading">New Adventures Await.</h1>
-            <button class="w3-button custom-background-color" id="getStartedButton">
-               <h2 class="secondHeading">Get Started</h2>
+         <div class="w3-container w3-center w3-padding-top-32" id="firstSectionHeader">
+            <h1 id="mainHeading">Love reading?</h1>
+            <h2 id="BPDheading">Join our Book Program Discussion club</h2>
+            <button onclick="document.getElementById('bookclubrego').style.display='block'" class="w3-button custom-background-color getStartedButton" id="trigger-modal">
+               <h3 id="secondHeading">Get Started</h3>
             </button>
-            <img alt="Book image" src="main_header.png" width="90%">
+            <img alt="Book image" src="croissant_book.png" width="90%">
          </div>
       </div>
+
+      <!-- second container -->
+
       <div class="w3-container" id="whiteContainer">
          <h1 id="mainHeading">Meet new people, make new friends, have fun!</h1>
          <img alt="Book club photo" src="bookclub_meeting.jpg" width="100%">
       </div>
-      <div class="w3-container w3-margin-top custom-background-color w3-center" id="orangeContainer">
-         <h1 id="mainHeading">Our favourite books this month</h1>
-         
-         <div class="w3-container">
-           <img src="ingredients_book.jpg" id="bookDisplay">
-           <img src="ingredients_book.jpg" id="bookDisplay">
-           <img src="ingredients_book.jpg" id="bookDisplay">
-           <img src="ingredients_book.jpg" id="bookDisplay">
-           <img src="ingredients_book.jpg" id="bookDisplay">
+
+      <!-- third container -->
+
+      <div class="w3-container w3-margin-top w3-padding-top-32 w3-margin-bottom custom-background-color w3-center" id="orangeContainer">
+        <h1 id="mainHeading">Our favourite books this month</h1>
+         <br>
+         <div class="w3-cell-row">
+          <div class="w3-container w3-cell">
+            <img src="ingredients_book.jpg" id="bookDisplay" alt="image of ingredients book">
+            <h2>Book</h2>
+          </div>
+          <div class="w3-container w3-cell">
+            <img src="kim_jiyoung_book.jpg" id="bookDisplay" alt="image of kim jiyoung book">
+            <h2>Book</h2>
+          </div>
+          <div class="w3-container w3-cell">
+            <img src="the_book_of_anna_book.png" id="bookDisplay" alt="image of the book of anna book">
+            <h2>Book</h2>
+          </div>
+          <div class="w3-container w3-cell">
+            <img src="the_golden_flea_book.jpg" id="bookDisplay" alt="iamge of the golden flea book">
+            <h2>Book</h2>
+          </div>
+          <div class="w3-container w3-cell">
+            <img src="how_to_pronounce_knife_book.jpg" id="bookDisplay" alt="image of how to pronouce knife book">
+            <h2>Book</h2>
+          </div>
          </div>
 
          <br>
+
+         <div class="w3-container">
+          <img src="how_to_pronounce_knife_book.jpg" id="bookDisplay" alt="image of how to pronouce knife book">
+          <img src="the_book_of_anna_book.png" id="bookDisplay" alt="image of the book of anna book">
+          <img src="the_golden_flea_book.jpg" id="bookDisplay" alt="iamge of the golden flea book">
+          <img src="kim_jiyoung_book.jpg" id="bookDisplay" alt="image of kim jiyoung book">
+          <img src="ingredients_book.jpg" id="bookDisplay" alt="image of ingredients book">
+        </div>
+
+         <br>
       </div>
+
+      <!-- fourth container -->
+
       <div class="w3-container" id="whiteContainer">
-         <h1 id="mainHeading">The Idea</h1>
-         <p>
+         <h1 id="mainHeading">Meet the Team</h1>
+         <div class="w3-container w3-center">
+           <img src="person1.jpg" id="peopleDisplay" alt="image of person 1">
+           <img src="person2.jpg" id="peopleDisplay" alt="image of person 1">
+           <img src="person3.jpg" id="peopleDisplay" alt="image of person 1">
+           <img src="person4.jpg" id="peopleDisplay" alt="image of person 1">
+
+         </div>
+
+         <p class="paragraphText">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non consequat justo, sit amet posuere purus. Nulla cursus, ante eu malesuada gravida, dolor quam fringilla sapien, vitae pretium sem felis a velit. Vestibulum pulvinar cursus maximus. Fusce commodo semper lectus in ultrices. Curabitur imperdiet ipsum non eros fringilla fermentum. Sed ut risus placerat, tristique ipsum laoreet, interdum nibh. Mauris eget varius ipsum. 
          </p>
+
+      </div>
+
+      <!-- footer -->
+
+      <div class="w3-container w3-margin-top custom-background-color" id="orangeContainer">
+        
+      </div>
+
+
+      <!-- bookclubrego modal using W3.CSS-->
+      <div id="bookclubrego" class="w3-modal">
+        <div class="w3-modal-content">
+          <header class="w3-container custom-background-color"> 
+            <span onclick="document.getElementById('bookclubrego').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+            <h2 id="secondHeading">New Member Registration</h2>
+          </header>
+          <form>
+            <!-- User Details Section -->
+            <div class="w3-containger w3-margin-left w3-margin-right" id="userDetails">
+              <h2>Lets get the details right</h2>
+              
+              <label class="formLabel" for="details">First Name & Surname</label>
+              <br>
+
+              <input class="shortInput" type="text" id="fname" placeholder="Given Name">
+              <input class="shortInput" type="text" id="lname" placeholder="Surname">
+
+              <br>
+
+              <label class="formLabel" for="fname">Username & Password</label>
+              <br>
+              <input class="shortInput" type="text" id="fname" placeholder="Username">
+              <input class="shortInput" type="text" id="lname" placeholder="Password">
+            </div>
+
+            <!-- Addresses Section -->
+
+            <div class="w3-containger w3-margin-left w3-margin-right" id="addresses">
+              <label class="formLabel" for="homeAddress">Home Address</label>
+              <input class="longInput" type="text" id="homeAddress" placeholder="12 Example street, Auckland 1234">
+
+              <label class="formLabel" for="workAddress">Work Address</label>
+              <input class="longInput" type="text" id="workAddress" placeholder="14 Example street, Auckland 1234">
+            </div>
+
+            <!-- contacts section -->
+            <div class="w3-containger w3-margin-left w3-margin-right" id="contacts">
+              <label class="formLabel" for="mobileNumber">Mobile Number</label>
+              <br>
+              <input class="shortInput" type="text" id="fname" placeholder="(021) 123 1234">
+
+              <br>
+              
+              <label class="formLabel" for="email">Email</label>
+              <input class="longInput" type="text" id="lname" placeholder="john.doe@example.com">
+              <br>
+              
+              <button class="w3-button" id="submitButton">Submit</button>
+            </div>
+          </form>
+          </div>
+        
       </div>
    </body>
+
+   <!-- Website created using W3 CSS framework-->
+
 </html>

@@ -35,23 +35,77 @@
 
 #mainHeading {
     font-size: 64px;
-    font-family: 'Arial Black', Helvetica, sans-serif;   
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0;
 }
 
-.secondHeading {
+#BPDheading {
     font-size: 36px;
+    font-family: 'Arial Black', Helvetica, sans-serif; 
+}
+
+#secondHeading {
+    font-size: 28x;
     font-family: 'Arial Black', Helvetica, sans-serif;
 
 }
 
-#getStartedButton {
+.getStartedButton {
     border-style: solid;
     border-radius: 10px;
-
+    padding: 0px 15px;
+    margin-top: 20px;
 }
 
 #bookDisplay {
-    width: 15%;
+    width: 250px;
     margin-right: 1.5%;
     margin-left: 1.5%;
 }
+
+#peopleDisplay {
+    width: 20%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+
+.paragraphText {
+    font-size: large;
+}
+
+.formLabel {
+    font-size: large;
+}
+
+.shortInput {
+    width: 49.5%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.longInput {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+#submitButton {
+    width: 100%;
+    background-color: #4CAF50;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+  }
