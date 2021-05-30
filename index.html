@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-   <title>BPD - Home</title>
+   <title>BPD - Homepage</title>
    <meta charset="UTF-8">
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    <link rel="stylesheet" href="index.css">
@@ -9,7 +9,7 @@
       <div class="w3-top">
          <div class="w3-bar w3-white w3-card" id="myNavbar">
             <a href="#home" class="w3-bar-item w3-button w3-wide">
-            <img alt="BPD - Home" src="bpd_logo.png" height="64">
+            <img alt="BPD - Logo" src="bpd_logo.png" height="64">
             </a>
             <!-- Left-sided navbar links -->
             <div class="w3-left w3-hide-small w3-padding-16">
@@ -37,7 +37,7 @@
             <button onclick="document.getElementById('bookclubrego').style.display='block'" class="w3-button custom-background-color getStartedButton" id="trigger-modal">
                <h3 id="secondHeading">Get Started</h3>
             </button>
-            <img alt="Book image" src="croissant_book.png" width="90%">
+            <img alt="main header splash image" src="croissant_book.png" width="90%">
          </div>
       </div>
 
@@ -56,35 +56,50 @@
          <div class="w3-cell-row">
           <div class="w3-container w3-cell">
             <img src="ingredients_book.jpg" id="bookDisplay" alt="image of ingredients book">
-            <h2>Book</h2>
+            <h2 id="bookTitle"><a href="#BOOK">Ingredients</a></h2>
           </div>
           <div class="w3-container w3-cell">
             <img src="kim_jiyoung_book.jpg" id="bookDisplay" alt="image of kim jiyoung book">
-            <h2>Book</h2>
+            <h2 id="bookTitle"><a href="#BOOK">Kim Jiyoung</a></h2>
           </div>
           <div class="w3-container w3-cell">
             <img src="the_book_of_anna_book.png" id="bookDisplay" alt="image of the book of anna book">
-            <h2>Book</h2>
+            <h2 id="bookTitle"><a href="#BOOK">The Book of<br/> Anna</a></h2>
           </div>
           <div class="w3-container w3-cell">
             <img src="the_golden_flea_book.jpg" id="bookDisplay" alt="iamge of the golden flea book">
-            <h2>Book</h2>
+            <h2 id="bookTitle"><a href="#BOOK">The Golden<br/> Flea</a></h2>
           </div>
           <div class="w3-container w3-cell">
             <img src="how_to_pronounce_knife_book.jpg" id="bookDisplay" alt="image of how to pronouce knife book">
-            <h2>Book</h2>
+            <h2 id="bookTitle"><a href="#BOOK">How to pronouce <br/> knife</a></h2>
           </div>
          </div>
 
          <br>
 
-         <div class="w3-container">
-          <img src="how_to_pronounce_knife_book.jpg" id="bookDisplay" alt="image of how to pronouce knife book">
-          <img src="the_book_of_anna_book.png" id="bookDisplay" alt="image of the book of anna book">
-          <img src="the_golden_flea_book.jpg" id="bookDisplay" alt="iamge of the golden flea book">
-          <img src="kim_jiyoung_book.jpg" id="bookDisplay" alt="image of kim jiyoung book">
-          <img src="ingredients_book.jpg" id="bookDisplay" alt="image of ingredients book">
-        </div>
+         <div class="w3-cell-row">
+          <div class="w3-container w3-cell w3-center">
+            <img src="ingredients_book.jpg" id="bookDisplay" alt="image of ingredients book">
+            <h2 id="bookTitle"><a href="#BOOK">Ingredients</a></h2>
+          </div>
+          <div class="w3-container w3-cell">
+            <img src="kim_jiyoung_book.jpg" id="bookDisplay" alt="image of kim jiyoung book">
+            <h2 id="bookTitle"><a href="#BOOK">Kim Jiyoung</a></h2>
+          </div>
+          <div class="w3-container w3-cell">
+            <img src="the_book_of_anna_book.png" id="bookDisplay" alt="image of the book of anna book">
+            <h2 id="bookTitle"><a href="#BOOK">The Book of<br/> Anna</a></h2>
+          </div>
+          <div class="w3-container w3-cell">
+            <img src="the_golden_flea_book.jpg" id="bookDisplay" alt="iamge of the golden flea book">
+            <h2 id="bookTitle"><a href="#BOOK">The Golden<br/> Flea</a></h2>
+          </div>
+          <div class="w3-container w3-cell">
+            <img src="how_to_pronounce_knife_book.jpg" id="bookDisplay" alt="image of how to pronouce knife book">
+            <h2 id="bookTitle"><a href="#BOOK">How to pronouce <br/> knife</a></h2>
+          </div>
+         </div>
 
          <br>
       </div>
@@ -92,15 +107,27 @@
       <!-- fourth container -->
 
       <div class="w3-container" id="whiteContainer">
-         <h1 id="mainHeading">Meet the Team</h1>
-         <div class="w3-container w3-center">
-           <img src="person1.jpg" id="peopleDisplay" alt="image of person 1">
-           <img src="person2.jpg" id="peopleDisplay" alt="image of person 1">
-           <img src="person3.jpg" id="peopleDisplay" alt="image of person 1">
-           <img src="person4.jpg" id="peopleDisplay" alt="image of person 1">
+        <h1 id="mainHeading">Meet the Team</h1>
 
-         </div>
-
+        <div class="w3-cell-row">
+          <div class="w3-container w3-cell w3-center">
+            <img src="person1.jpg" id="peopleDisplay" alt="image of person 1">
+            <h2 id="peopleTitle">John</h2>
+          </div>
+          <div class="w3-container w3-cell w3-center">
+            <img src="person2.jpg" id="peopleDisplay" alt="image of person 2">
+            <h2 id="peopleTitle">Jane</h2>
+          </div>
+          <div class="w3-container w3-cell w3-center">
+            <img src="person3.jpg" id="peopleDisplay" alt="image of person 3">
+            <h2 id="peopleTitle">Jack</h2>
+          </div>
+          <div class="w3-container w3-cell w3-center">
+            <img src="person4.jpg" id="peopleDisplay" alt="image of person 4">
+            <h2 id="peopleTitle">Jessie</h2>
+          </div>
+        </div>
+        <h3>Our mission,</h3>
          <p class="paragraphText">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non consequat justo, sit amet posuere purus. Nulla cursus, ante eu malesuada gravida, dolor quam fringilla sapien, vitae pretium sem felis a velit. Vestibulum pulvinar cursus maximus. Fusce commodo semper lectus in ultrices. Curabitur imperdiet ipsum non eros fringilla fermentum. Sed ut risus placerat, tristique ipsum laoreet, interdum nibh. Mauris eget varius ipsum. 
          </p>
